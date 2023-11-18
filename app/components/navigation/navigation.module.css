@@ -1,0 +1,39 @@
+.container {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5rem solid var(--secondary-background-color);
+}
+  
+.socials, .navigation {
+    display: flex;
+    align-items: center;
+}
+  
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    color: var(--accent-color);
+    transition: 0.2s ease-in-out;
+    font-size: xx-large;
+}
+
+.icon {
+    width: 7vw;
+    height: 7vh;
+}
+
+.icon:hover {
+    transition: 0.2s ease-in-out;
+}
