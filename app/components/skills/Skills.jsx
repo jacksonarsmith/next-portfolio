@@ -16,7 +16,7 @@ export default function Skills() {
   }
 
   return (
-    <div className={styles.container}>
+    <div id='skills' className={styles.container}>
       <div className={styles.selection}>
         <ul>
           <li onClick={() => handleItemSelection('frontend')}>
