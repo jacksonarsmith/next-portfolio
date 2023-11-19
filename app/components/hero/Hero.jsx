@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <div className={styles.container}>
-      <Image src="/hero.jpeg" width={6000} height={4000} alt="Picture of the Jackson" className={styles.image}/>
+      <Image src="/hero.jpeg" width={6000} height={4000} alt="Picture of the Jackson" className={styles.image} priority={true}/>
 
       <div className={styles.description}>
         <h1>Software Engineer</h1>

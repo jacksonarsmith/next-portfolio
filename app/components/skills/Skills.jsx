@@ -33,41 +33,41 @@ export default function Skills() {
       <div className={styles.columns}>
         {selectedItem === 'frontend' && (
         <div className={styles.frontend}>
-          <Image src='/html5.png' width={480} height={480} alt='HTML5 icon picture' className={styles.image}/>
+          <Image src='/html5.png' width={480} height={480} alt='HTML5 icon picture' className={styles.image} priority={false}/>
           <div className={styles.grid_three}>
-            <Image src='/react.png' width={480} height={480} alt='Reactjs icon picture' className={styles.image}/>
-            <Image src='/javascript.png' width={480} height={480} alt='Javascript icon picture' className={styles.image}/>
-            <Image src='/nextjs.png' width={480} height={480} alt='Nextjs icon picture' className={styles.image}/>
+            <Image src='/react.png' width={480} height={480} alt='Reactjs icon picture' className={styles.image} priority={false}/>
+            <Image src='/javascript.png' width={480} height={480} alt='Javascript icon picture' className={styles.image} priority={false}/>
+            <Image src='/nextjs.png' width={480} height={480} alt='Nextjs icon picture' className={styles.image} priority={false}/>
           </div>
-          <Image src='/css3.png' width={480} height={480} alt='CSS3 icon picture' className={styles.image}/>
+          <Image src='/css3.png' width={480} height={480} alt='CSS3 icon picture' className={styles.image} priority={false}/>
         </div>
         )}
         {selectedItem === 'backend' && (
           <div className={styles.backend}>
             <div className={styles.grid_two}>
-              <Image src='/python.png' width={480} height={480} alt='Python icon picture' className={styles.image}/>
-              <Image src='/java.png' width={480} height={480} alt='Java icon picture' className={styles.image}/>
+              <Image src='/python.png' width={480} height={480} alt='Python icon picture' className={styles.image} priority={false}/>
+              <Image src='/java.png' width={480} height={480} alt='Java icon picture' className={styles.image} priority={false}/>
             </div>
             <div className={styles.grid_three}>
-              <Image src='/javascript.png' width={480} height={480} alt='Javascript icon picture' className={styles.image}/>
-              <Image src='/nodejs.png' width={480} height={480} alt='Nodejs icon picture' className={styles.image}/>
-              <Image src='/expressjs.png' width={480} height={480} alt='Expressjs icon picture' className={styles.image}/>
+              <Image src='/javascript.png' width={480} height={480} alt='Javascript icon picture' className={styles.image} priority={false}/>
+              <Image src='/nodejs.png' width={480} height={480} alt='Nodejs icon picture' className={styles.image} priority={false}/>
+              <Image src='/expressjs.png' width={480} height={480} alt='Expressjs icon picture' className={styles.image} priority={false}/>
             </div>
             <div className={styles.grid_two}>
-              <Image src='/cpp.png' width={480} height={480} alt='C++ icon picture' className={styles.image}/>
-              <Image src='/mongodb.png' width={480} height={480} alt='MongoDB icon picture' className={styles.image}/>
+              <Image src='/cpp.png' width={480} height={480} alt='C++ icon picture' className={styles.image} priority={false}/>
+              <Image src='/mongodb.png' width={480} height={480} alt='MongoDB icon picture' className={styles.image} priority={false}/>
             </div>
           </div>
         )}
         {selectedItem === 'development' && (
           <div className={styles.development}>
             <div className={styles.grid_two}>
-              <Image src='/npm.png' width={480} height={480} alt='NPM icon picture' className={styles.image}/>
-              <Image src='/git.png' width={480} height={480} alt='Git icon picture' className={styles.image}/>
+              <Image src='/npm.png' width={480} height={480} alt='NPM icon picture' className={styles.image} priority={false}/>
+              <Image src='/git.png' width={480} height={480} alt='Git icon picture' className={styles.image} priority={false}/>
             </div>
             <div className={styles.grid_two}>
-              <Image src='/jira.png' width={480} height={480} alt='Jira icon picture' className={styles.image}/>
-              <Image src='/figma.png' width={480} height={480} alt='Figma icon picture' className={styles.image}/>
+              <Image src='/jira.png' width={480} height={480} alt='Jira icon picture' className={styles.image} priority={false}/>
+              <Image src='/figma.png' width={480} height={480} alt='Figma icon picture' className={styles.image} priority={false}/>
             </div>
           </div>
         )}
