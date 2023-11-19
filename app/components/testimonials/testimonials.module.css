@@ -6,6 +6,10 @@
     font-size: 5rem;
 }
 
+.container button:hover {
+    background-color: var(--accent-color);
+}
+
 .testimonials {
 }
 
@@ -14,5 +18,13 @@
     padding: 2rem;
     background-color: var(--secondary-background-color);
     box-shadow: 0 0 0.5rem var(--accent-color);
+    border-radius: 0.5rem;
+}
+
+.line {
+    margin: 1rem 0;
+    width: 20vw;
+    height: 0.5vh; 
+    background-color: var(--accent-color);
     border-radius: 0.5rem;
 }

@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 5rem;
+}
+
+.container p {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container button {
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grid_two input {
+    background-color: var(--secondary-background-color);
+    border-radius: 0.5rem;
+    width: 19vw;
+    height: 4vh;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.message {
+    background-color: var(--secondary-background-color);
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    width: 40vw;
+    height: 20vh;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.line {
+    margin: 1rem 0;
+    width: 35vw;
+    height: 0.5vh; 
+    background-color: var(--accent-color);
+    border-radius: 0.5rem;
+}
