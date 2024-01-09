@@ -1,9 +1,11 @@
 .container {
     padding: 2rem; 
+    margin: 2rem;
 }
 
 .container h1 {
     font-size: 5rem;
+    padding-left: 7rem;
 }
 
 .container button:hover {
@@ -14,15 +16,29 @@
 }
 
 .testimonial {
-    margin: 5rem 0;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 8rem;
+    padding: 2rem 5rem;
     background-color: var(--secondary-background-color);
     box-shadow: 0 0 0.5rem var(--accent-color);
     border-radius: 0.5rem;
 }
 
+.testimonial p {
+    margin-left: 3rem;
+}
+
+.image {
+    width: 12vw;
+    height: 24vh;
+    border-radius: 100%;
+    box-shadow: 0 0 2rem var(--accent-color);
+}
+
 .line {
-    margin: 1rem 0;
+    margin: 1rem 0 0 8rem;
     width: 20vw;
     height: 0.5vh; 
     background-color: var(--accent-color);

@@ -21,15 +21,16 @@
     border-bottom: 0.5rem solid var(--secondary-background-color);
     border-right: 0.5rem solid var(--secondary-background-color);
     border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--accent-color);
 }
 
 .selection li:hover {
     cursor: pointer;
-    color: var(--accent-color);
     transition: 0.6s ease-in-out;
     font-size: 1.7rem;
     border-bottom: 0.5rem solid var(--accent-color);
     border-right: 0.5rem solid var(--accent-color);
+    background-color: var(--secondary-background-color);
 }
 
 .columns {
