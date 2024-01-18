@@ -50,3 +50,9 @@
 .icon:hover {
     transition: 0.2s ease-in-out;
 }
+
+@media (max-width: 1440px) {
+    .projectCard p {
+        font-size: 14px;
+    }
+}
