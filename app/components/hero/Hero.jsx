@@ -9,12 +9,12 @@ export default function Hero() {
 
       <div className={styles.description}>
         <h1>Software Engineer</h1>
-        <div className={styles.line}></div>
+        <hr />
         <p>
-          Hello! I'm Jackson Smith, a dedicated software engineer passionate about translating creative ideas into impactful solutions. 
+          Hello! I&apos;m Jackson Smith, a dedicated software engineer passionate about translating creative ideas into impactful solutions. 
           I specialize in the entire software development life cycle, from designing user-friendly interfaces to architecting scalable 
           back-end systems. My focus is on problem-solving, aiming to address real-world challenges with elegant and efficient solutions. 
-          As you explore my portfolio, you'll find a showcase of projects reflecting my commitment to excellence and innovation. 
+          As you explore my portfolio, you&apos;ll find a showcase of projects reflecting my commitment to excellence and innovation. 
         </p>
       </div>
     </div>

@@ -5,7 +5,7 @@ export default function Testimonials() {
   return (
     <div id='testimonials' className={styles.container}>
       <h1>Testimonials</h1>
-      <div className={styles.line}></div>
+      <hr />
       <div className={styles.testimonials}>
         <div className={styles.testimonial}>
           <Image src='/testimonial_jacob.jpeg' width={480} height={480} alt='Jacob Testimonial Picture' className={styles.image} priority={false}/>

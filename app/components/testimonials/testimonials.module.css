@@ -1,6 +1,7 @@
 .container {
     padding: 2rem; 
-    margin: 2rem;
+    margin: 2rem 0;
+    border-bottom: 0.5rem solid var(--secondary-background-color);
 }
 
 .container h1 {
@@ -12,7 +13,12 @@
     background-color: var(--accent-color);
 }
 
-.testimonials {
+.container hr {
+    margin: 1rem 8rem;
+    width: 40vw;
+    height: 0.2vh; 
+    background-color: var(--accent-color);
+    border-radius: 0.5rem;
 }
 
 .testimonial {
@@ -35,12 +41,4 @@
     height: 24vh;
     border-radius: 100%;
     box-shadow: 0 0 2rem var(--accent-color);
-}
-
-.line {
-    margin: 1rem 0 0 8rem;
-    width: 20vw;
-    height: 0.5vh; 
-    background-color: var(--accent-color);
-    border-radius: 0.5rem;
 }

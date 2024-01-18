@@ -4,11 +4,11 @@ export default function Contact() {
   return (
     <div id='contact' className={styles.container}>
       <h1>Get in touch</h1>
-      <div className={styles.line}></div>
+      <hr />
       <p>
-        I'm here to explore opportunities with you. Whether you're seeking a new challenge, 
-        interested in a collaboration, or have a specific role in mind, I'd love to hear from 
-        you. Use the form below to reach out, and let's start a conversation about how we can 
+        I&apos;m here to explore opportunities with you. Whether you&apos;re seeking a new challenge, 
+        interested in a collaboration, or have a specific role in mind, I&apos;d love to hear from 
+        you. Use the form below to reach out, and let&apos;s start a conversation about how we can 
         create success together!
       </p>
       <div className={styles.form}>

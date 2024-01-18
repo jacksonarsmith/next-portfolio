@@ -1,25 +1,39 @@
 import Link from 'next/link';
 import styles from './projects.module.css'
+import '@fortawesome/fontawesome-svg-core'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+
+config.autoAddCss = false; 
 
 export default function Projects() {
   const projects = [
-    { title: 'IMDB Top Movies Web Scraper', description: 'This is project 1', link: 'https://github.com/jacksonarsmith/top-movies-web-scraper' },
-    { title: 'Imperial Contracting Ottawa Web App', description: 'This is project 2', link: 'http://github.com/user/project2' },
-    { title: 'Python Project', description: 'This is project 3', link: 'http://github.com/user/project3' },
-    { title: 'Java or C++ Project', description: 'This is project 4', link: 'http://github.com/user/project4' },
+    { title: 'MERN Web Scraper', description: "This application is a robust, full-stack solution developed using the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to efficiently scrape and process data from IMDb's top 1000 movies. The back-end leverages the power of Express.js and Mongoose, along with Cheerio and Axios for web scraping, to fetch and store data. The front-end, built with React, presents this data in an intuitive and user-friendly interface, providing users with insightful visualizations of IMDb's top-rated movies. The application also includes features for sorting and filtering the movies, offering a dynamic and interactive user experience.", github: 'https://github.com/jacksonarsmith/mern-imdb-scraper', link: ''},
+    { title: 'ICO Web App', description: "Developed the Imperial Contracting Ottawa [ICO] Home Renovations website using Next.js to showcase our Ottawa-based full home renovation expertise. The dynamic platform features a curated portfolio, captivating before-and-after gallery, and detailed service offerings, highlighting our commitment to quality craftsmanship. Leveraged modern web technologies for optimal performance and a seamless user experience. The inclusion of client testimonials and a user-friendly contact form underscores our dedication to client satisfaction.", github: 'https://github.com/jacksonarsmith/next-contracting-website', link: ''},
+    { title: 'Python Project', description: 'This is project 3', github: 'http://github.com/user/project3', link: ''},
+    { title: 'Java or C++ Project', description: 'This is project 4', github: 'http://github.com/user/project4', link: ''},
   ];
 
   return (
-    <div id='projects'>
+    <div id='projects' className={styles.projects}>
       <h1 className={styles.heading}>Projects</h1>
-      <div className={styles.line}></div>
+      <hr className={styles.headingHr}/>
       <div className={styles.container}>
         {projects.map((project, index) => (
           <div key={index} className={styles.projectCard}>
             <h2>{project.title}</h2>
-            <div className={styles.line_card}></div> 
+            <hr />
             <p>{project.description}</p>
-            <Link href={project.link} target="_blank" rel="noopener noreferrer">Source Code</Link>
+            <div className={styles.links}>
+              <Link href={project.link} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={ faLink } className={styles.icon}/>
+              </Link>
+              <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={ faGithub } className={styles.icon}/>
+              </Link>
+            </div>
           </div>
         ))}
       </div>
