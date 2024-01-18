@@ -7,6 +7,7 @@
 }
 
 .container h1 {
+    text-align: center;
     font-size: 5rem;
 }
 
@@ -22,10 +23,21 @@
 }
 
 .container button {
+    background-color: var(--secondary-background-color);
     width: 15vw;
     height: 5vh;
     font-size: 1.25rem;
+    border: none;
     border-radius: 0.5rem;
+    box-shadow: 0 0 1rem var(--accent-color);
+}
+
+.container button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .form {
