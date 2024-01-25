@@ -9,10 +9,7 @@ export default function Testimonials() {
       <div className={styles.testimonials}>
         <div className={styles.testimonial}>
           <Image src='/testimonial_jacob.jpeg' width={480} height={480} alt='Jacob Testimonial Picture' className={styles.image} priority={false}/>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero perferendis numquam id, molestiae molestias aliquid, delectus fugiat rerum beatae odio ea laboriosam tempora sequi praesentium autem tenetur, qui aut fugit.</p>
-        </div>
-        <div className={styles.testimonial}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum provident, inventore placeat omnis sunt perspiciatis enim. Voluptatum, autem rerum sed eaque suscipit hic nobis natus alias cum neque? Neque, adipisci!</p>
+          <p>I highly recommend Jackson for their exceptional programming skills. Their proficiency in diverse languages, ability to solve complex problems, and collaborative mindset make them an invaluable asset to any team. Jackson consistently delivers high-quality solutions and is an outstanding contributor to any programming project.</p>
         </div>
       </div>
     </div>
