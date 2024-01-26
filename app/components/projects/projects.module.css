@@ -1,15 +1,15 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minmax values as needed */
     place-content: center;
     place-items: center;
     border-bottom: 0.5rem solid var(--secondary-background-color);
+    gap: 4rem; /* Add gaps between grid items */
+    padding: 4rem 0;
 }
   
 .projectCard {
-    width: 30vw;
-    height: 50vh;
-    margin: 2rem;
+    width: 80%; /* Take the full width of the grid cell */
     padding: 2rem;
     border-radius: 0.5rem;
     background-color: var(--secondary-background-color);
@@ -19,7 +19,7 @@
 
 .projectCard p {
     padding: 0.5rem 0;
-    font-size: 16px;
+    font-size: 1rem; /* Use rem for font sizes */
 }
 
 .projectCard:hover {
@@ -28,14 +28,14 @@
 }
 
 .heading {
-    text-align: center; /* Add this line to center text */
+    text-align: center;
     font-size: 5rem;
     margin: 1rem 0;
 }
 
 .headingHr {
     margin: 1rem auto;
-    width: 40vw;
+    width: 40%;
     height: 0.2vh; 
     background-color: var(--accent-color);
     border-radius: 0.5rem;
@@ -47,12 +47,23 @@
     height: 4vh;
 }
 
+.image {
+    width: 100%; /* Take the full width of the parent */
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem var(--accent-color);
+}
+
 .icon:hover {
     transition: 0.2s ease-in-out;
 }
 
 @media (max-width: 1440px) {
     .projectCard p {
-        font-size: 14px;
+        font-size: 0.875rem; /* Adjust the font size for smaller screens */
+    }
+
+    .heading {
+        font-size: 3rem; /* Adjust the heading size for smaller screens */
     }
 }
