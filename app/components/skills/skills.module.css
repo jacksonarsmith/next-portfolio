@@ -107,27 +107,3 @@ opacity: 0.5;
     opacity: 1;
 }
 
-@media (max-width: 720px) {
-    .image {
-        width: 15vw;
-        height: 22vh;
-    }
-
-    .selection ul {
-        margin: 0 4rem;
-    }
-
-    .selection li {
-        font-size: 18px;
-    }
-
-    .selection li:hover {
-        cursor: pointer;
-        font-size: 20px;
-        transition: 0.6s ease-in-out;
-        border-bottom: 0.5rem solid var(--accent-color);
-        border-right: 0.5rem solid var(--accent-color);
-        background-color: var(--primary-button-color);
-        color: var(--primary-background-color);
-    }
-}
