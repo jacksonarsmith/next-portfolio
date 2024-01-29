@@ -41,3 +41,12 @@
     border-radius: 0.5rem;
 
 }
+
+@media screen and (max-width: 1440px) {
+    .description h1 {
+        font-size: 48px;
+    }
+    .description p {
+        font-size: 14px;
+    }
+}
