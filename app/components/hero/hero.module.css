@@ -44,9 +44,9 @@
 
 @media screen and (max-width: 1440px) {
     .description h1 {
-        font-size: 48px;
+        font-size: 50px;
     }
     .description p {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
