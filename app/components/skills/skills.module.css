@@ -107,7 +107,7 @@ opacity: 0.5;
     opacity: 1;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 720px) {
     .image {
         width: 15vw;
         height: 22vh;

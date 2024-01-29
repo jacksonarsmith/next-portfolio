@@ -42,7 +42,7 @@
 
 }
 
-@media (min-width: 926px) and (max-width: 1600px) {
+@media screen and (max-width: 720px) {
     .description h1 {
         font-size: 56px;
     }
