@@ -17,7 +17,7 @@
 
 .selection li {
     padding: 2rem;
-    font-size: 1.5rem;
+    font-size: 28px;
     border-bottom: 0.5rem solid var(--secondary-background-color);
     border-right: 0.5rem solid var(--secondary-background-color);
     border-radius: 2rem;
@@ -27,7 +27,7 @@
 .selection li:hover {
     cursor: pointer;
     transition: 0.6s ease-in-out;
-    font-size: 1.7rem;
+    font-size: 32px;
     border-bottom: 0.5rem solid var(--accent-color);
     border-right: 0.5rem solid var(--accent-color);
     background-color: var(--primary-button-color);
@@ -107,3 +107,12 @@ opacity: 0.5;
     opacity: 1;
 }
 
+@media screen and (max-width: 1440px) {
+    .selection li {
+        font-size: 20px;
+    }
+
+    .selection li:hover {
+        font-size: 24px;
+    }
+}
