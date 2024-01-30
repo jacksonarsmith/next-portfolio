@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-svg-core'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFilePdf, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
@@ -40,6 +40,11 @@ export default function Navigation() {
           </li>
           <li>
             <Link href='#testimonials' className={styles.link} onClick={() => router.push('testimonials')}>Testimonials</Link>
+          </li>
+          <li>
+            <Link className={styles.link} href='/jacksonarsmith_resume.pdf' download>
+              <FontAwesomeIcon icon={ faFilePdf } className={styles.icon}/>
+            </Link>
           </li>
           <li>
             <Link href='#contact' className={styles.link} onClick={() => router.push('contact')}>
