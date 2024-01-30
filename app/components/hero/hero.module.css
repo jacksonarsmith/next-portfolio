@@ -20,7 +20,7 @@
 }
 
 .description h1 {
-    font-size: 5rem;
+    font-size: 4vw;
 }
 
 .description p {
@@ -29,7 +29,7 @@
     line-height: 1.5;
     box-shadow: 0 0 1rem var(--accent-color);
     background-color: var(--secondary-background-color);
-    font-size: 22px;
+    font-size: 1.2vw;
     border-radius: 0.5rem;
 }
 
@@ -40,13 +40,4 @@
     background-color: var(--accent-color);
     border-radius: 0.5rem;
 
-}
-
-@media screen and (max-width: 1440px) {
-    .description h1 {
-        font-size: 50px;
-    }
-    .description p {
-        font-size: 16px;
-    }
 }
