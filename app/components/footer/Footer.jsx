@@ -16,12 +16,12 @@ export default function Footer() {
       <div className={styles.socials}>
         <ul className={styles.list}>
           <li>
-            <Link href='https://github.com/jacksonarsmith' className={styles.link}>
+            <Link href='https://www.linkedin.com/in/jackson-smith-a221b81a1/' className={styles.link}>
               <FontAwesomeIcon icon={ faLinkedin } className={styles.icon}/>
             </Link>
           </li>
           <li>
-            <Link href='https://www.linkedin.com/in/jackson-smith-a221b81a1/' className={styles.link}>
+            <Link href='https://github.com/jacksonarsmith' className={styles.link}>
               <FontAwesomeIcon icon={ faGithub } className={styles.icon}/>
             </Link>
           </li>
