@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jackson Smith's Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This site is built with [Next.js](https://nextjs.org/), a powerful React framework, and showcases my skills, projects, testimonials, and more.
 
-First, run the development server:
+## Skills
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I have experience with a wide range of programming languages and technologies, categorized into front-end technologies, back-end technologies, and development tools.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Front-end Technologies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- HTML5
+- React
+- JavaScript
+- Next.js
+- CSS3
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Back-end Technologies
 
-## Learn More
+- Python
+- Java
+- JavaScript
+- Node.js
+- Express.js
+- C++
+- MongoDB
 
-To learn more about Next.js, take a look at the following resources:
+### Development Tools
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- NPM
+- Git
+- Jira
+- Figma
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Projects
 
-## Deploy on Vercel
+The portfolio includes the following projects:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **MERN Web Scraper** - This application is a robust, full-stack solution developed using the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to efficiently scrape and process data from IMDb's top 1000 movies. [GitHub Link](https://github.com/jacksonarsmith/mern-imdb-scraper) | [Live Link](https://imdb-smith-scraper.vercel.app)
+2. **ICO Web App** - Developed the Imperial Contracting Ottawa [ICO] Home Renovations website using Next.js to showcase our Ottawa-based full home renovation expertise. [GitHub Link](https://github.com/jacksonarsmith/next-contracting-website) | [Live Link](https://next-contracting-website.vercel.app/)
