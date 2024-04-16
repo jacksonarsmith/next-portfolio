@@ -20,13 +20,13 @@ export default function Skills() {
       <div className={styles.selection}>
         <ul>
           <li onClick={() => handleItemSelection('frontend')}>
-            Front-end Technologies
+            Frontend
           </li>
           <li onClick={() => handleItemSelection('backend')}>
-            Back-end Technologies
+            Backend
           </li>
           <li onClick={() => handleItemSelection('development')}>
-            Development Tools
+            Tools
           </li>
         </ul>
       </div>

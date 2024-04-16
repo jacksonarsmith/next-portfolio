@@ -1,35 +1,25 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* This creates two equal-width columns */
+  gap: 2rem; /* This adds some space between the columns */
+  padding: 4rem;
 }
 
-.image {
-    width: 60vw; /* Adjust this value to change the image width */
-    height: 70vh; /* Adjust this value to change the image height */
-    border-radius: 0.5rem;
+.gridOne, .gridTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-.card {
-    position: absolute;
-    top: 5%;
-    left: -15%;
-    perspective: 1000px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 2rem var(--accent-color);
-    background-color: var(--secondary-background-color);
-    padding: 0.5rem;
+.gridOne h2 {
+  font-size: 2.2vw;
 }
 
-.text {
-    position: absolute;
-    width: 40vw;
-    font-size: 1.25vw;
-    right: 10%;
-    top: 65%;
+.container p {
+    width: 42.5vw;
+    font-size: 1.1vw;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 0.5rem var(--accent-color);
@@ -38,24 +28,23 @@
 }
 
   
-.card img {   
+.gridTwo img {   
     width: 100%;
-    height: 60vh;
-
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 2rem var(--accent-color);
 }
 
 .button {
-    position: absolute;
-    right: 5%;
-    top: 22.5%;
     transform: translateY(-50%);
     display: flex;
     box-shadow: 0 0 0.5rem var(--accent-color);
 }
   
-  .box {
-    width: 7vw;
-    height: 10vh;
+.box {
+    width: 6vw;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,9 +56,9 @@
     position: relative;
     background: var(--secondary-background-color);
     overflow: hidden;
-  }
+}
   
-  .box:before {
+.box:before {
     content: "";
     position: absolute;
     top: 0;
@@ -82,35 +71,35 @@
     justify-content: center;
     transform: translateY(100%);
     transition: transform .4s;
-  }
+}
   
-  .box:nth-child(2)::before {
+.box:nth-child(2)::before {
     transform: translateY(-100%);
     content: 'S';
-  }
+}
   
-  .box:nth-child(3)::before {
+.box:nth-child(3)::before {
     content: 'M';
-  }
+}
   
-  .box:nth-child(4)::before {
+.box:nth-child(4)::before {
     transform: translateY(-100%);
     content: 'I';
-  }
+}
   
-  .box:nth-child(5)::before {
+.box:nth-child(5)::before {
     content: 'T';
-  }
+}
 
-  .box:nth-child(6)::before {
+.box:nth-child(6)::before {
     transform: translateY(-100%);
     content: 'H';
-  }
+}
 
-    .box:nth-child(7)::before {
+  .box:nth-child(7)::before {
         content: '';
-    }
-  
-  .button:hover .box:before {
-    transform: translateY(0);
   }
+  
+.button:hover .box:before {
+    transform: translateY(0);
+}
