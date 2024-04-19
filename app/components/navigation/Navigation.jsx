@@ -42,7 +42,7 @@ export default function Navigation() {
             <Link href='#testimonials' className={styles.link} onClick={() => router.push('testimonials')}>Testimonials</Link>
           </li>
           <li>
-            <Link className={styles.link} href='/jacksonarsmith_resume.pdf' download>
+            <Link className={styles.link} href='/jacksonarsmith_resume_2024.pdf' download>
               <FontAwesomeIcon icon={ faFilePdf } className={styles.icon}/>
             </Link>
           </li>
