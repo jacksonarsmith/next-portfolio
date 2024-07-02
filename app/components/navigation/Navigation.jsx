@@ -19,7 +19,7 @@ export default function Navigation() {
       <div className={styles.socials}>
         <ul className={styles.list}>
           <li>
-            <Link href='https://www.linkedin.com/in/jackson-smith-a221b81a1/' className={styles.link}>
+            <Link href='https://www.linkedin.com/in/jacksonarsmith/' className={styles.link}>
               <FontAwesomeIcon icon={ faLinkedin } className={styles.icon}/>
             </Link>
           </li>
