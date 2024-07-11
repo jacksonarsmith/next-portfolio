@@ -10,26 +10,29 @@ I have experience with a wide range of programming languages and technologies, c
 
 ### Front-end Technologies
 
-- HTML5
-- React
-- JavaScript
-- Next.js
-- CSS3
+- HTML
+- CSS
+- React.js
+- Javascript
 
 ### Back-end Technologies
 
+- JavaScript
+- Go
 - Python
 - Java
-- JavaScript
 - Node.js
 - Express.js
 - C++
+- PostgreSQL
 - MongoDB
 
 ### Development Tools
 
 - NPM
 - Git
+- Github 
+- Docker
 - Jira
 - Figma
 
@@ -38,4 +41,4 @@ I have experience with a wide range of programming languages and technologies, c
 The portfolio includes the following projects:
 
 1. **MERN Web Scraper** - This application is a robust, full-stack solution developed using the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to efficiently scrape and process data from IMDb's top 1000 movies. | [Live Link](https://imdb-smith-scraper.vercel.app)
-2. **ICO Web App** - Developed the Imperial Contracting Ottawa [ICO] Home Renovations website using Next.js to showcase our Ottawa-based full home renovation expertise. | [Live Link](https://next-contracting-website.vercel.app/)
+2. **ICO Web App** - Developed the Imperial Contracting Ottawa [ICO] Home Renovations website using React.js on the frontend and Node.js and Express.js with Javascript on the backend to showcase our Ottawa-based full home renovation expertise. | [Live Link](https://imperialcontractingottawa.ca/)
